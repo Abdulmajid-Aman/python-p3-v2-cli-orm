@@ -49,6 +49,7 @@ def main():
             delete_employee()
         elif choice == "13":
             list_department_employees()
+            break
         else:
             print("Invalid choice")
 
